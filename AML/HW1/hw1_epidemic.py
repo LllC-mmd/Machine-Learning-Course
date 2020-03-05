@@ -158,7 +158,7 @@ def corrsvr_forecast(c_delta, r_delta, c_ccmat, r_ccmat, forecast_length, with_p
     return c_fit, c_forecast, r_fit, r_forecast
 
 
-'''
+
 def xgboost_forecast(c_delta, r_delta, forecast_length):
     num_obs = c_delta.shape[0]
     num_state = c_delta.shape[1]
@@ -240,7 +240,6 @@ def corrxgboost_forecast(c_delta, r_delta, c_ccmat, r_ccmat, forecast_length, km
         r_forecast.append([rxgb_list[i].predict(np.array(r_forecast[d - 1])[r_select[i]].reshape(1, -1))[0] for i in range(0, num_state)])
     r_forecast = np.sum(r_forecast, axis=1).astype(int)
     return c_fit, c_forecast, r_fit, r_forecast
-'''
 
 
 df = pd.read_csv("data_with_province_update_20200223.csv")
@@ -286,7 +285,6 @@ c_fit, c_fore, r_fit, r_fore = svr_forecast(c_delta=confirmed_delta, r_delta=rec
 #c_fit, c_fore, r_fit, r_fore = corrsvr_forecast(c_delta=confirmed_delta, r_delta=recover_delta, c_ccmat=c_corr_mat, r_ccmat=r_corr_mat, forecast_length=7, with_province=True, kmax=15)
 #c_fit, c_fore, r_fit, r_fore = xgboost_forecast(c_delta=confirmed_delta, r_delta=recover_delta, forecast_length=7)
 #c_fit, c_fore, r_fit, r_fore = corrxgboost_forecast(c_delta=confirmed_delta, r_delta=recover_delta, c_ccmat=c_corr_mat, r_ccmat=r_corr_mat, forecast_length=7, kmax=15)
-#c_sum = prophet_forecast(c_delta=confirmed_delta, r_delta=recover_delta, d_delta=death_delta, d=report_date, forecast_length=7)
 print(c_fore)
 print(r_fore)
 
