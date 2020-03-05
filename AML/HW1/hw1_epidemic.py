@@ -10,7 +10,7 @@ import statsmodels.api as sm
 from sklearn.svm import SVR
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import GridSearchCV
-#import xgboost
+import xgboost
 
 
 register_matplotlib_converters()
