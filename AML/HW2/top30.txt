@@ -1,0 +1,733 @@
+The log-likelihood at iteration  10 :  -443762.365357
+The log-likelihood at iteration  20 :  -440537.59413
+The log-likelihood at iteration  30 :  -438691.978891
+The log-likelihood at iteration  40 :  -436741.507924
+The log-likelihood at iteration  50 :  -435391.299484
+The log-likelihood at iteration  60 :  -434542.209106
+The log-likelihood at iteration  70 :  -433991.683404
+The log-likelihood at iteration  80 :  -433632.83669
+The log-likelihood at iteration  90 :  -433735.466204
+The log-likelihood at iteration  100 :  -433465.951968
+The log-likelihood at iteration  110 :  -433008.976804
+The log-likelihood at iteration  120 :  -432661.246537
+The log-likelihood at iteration  130 :  -432328.64186
+The log-likelihood at iteration  140 :  -431862.093287
+The log-likelihood at iteration  150 :  -431808.861283
+The log-likelihood at iteration  160 :  -431652.980976
+The log-likelihood at iteration  170 :  -431483.691846
+The log-likelihood at iteration  180 :  -431376.956945
+The log-likelihood at iteration  190 :  -431179.855916
+The log-likelihood at iteration  200 :  -430998.860868
+The log-likelihood at iteration  210 :  -430664.323278
+The log-likelihood at iteration  220 :  -430864.492402
+The log-likelihood at iteration  230 :  -430927.37753
+The log-likelihood at iteration  240 :  -430934.981419
+The log-likelihood at iteration  250 :  -430894.859641
+The log-likelihood at iteration  260 :  -431034.97483
+The log-likelihood at iteration  270 :  -430946.806942
+The log-likelihood at iteration  280 :  -430951.568909
+The log-likelihood at iteration  290 :  -430699.274005
+The log-likelihood at iteration  300 :  -430628.479306
+The log-likelihood at iteration  310 :  -430675.88085
+The log-likelihood at iteration  320 :  -430406.435059
+The log-likelihood at iteration  330 :  -430257.038073
+The log-likelihood at iteration  340 :  -430448.527589
+The log-likelihood at iteration  350 :  -430008.187782
+The log-likelihood at iteration  360 :  -430183.209906
+The log-likelihood at iteration  370 :  -430144.873349
+The log-likelihood at iteration  380 :  -430141.453369
+The log-likelihood at iteration  390 :  -430160.492355
+The log-likelihood at iteration  400 :  -430221.456802
+The log-likelihood at iteration  410 :  -429960.799177
+The log-likelihood at iteration  420 :  -429822.931002
+The log-likelihood at iteration  430 :  -429846.899032
+The log-likelihood at iteration  440 :  -429963.08723
+The log-likelihood at iteration  450 :  -429898.34806
+The log-likelihood at iteration  460 :  -429686.932794
+The log-likelihood at iteration  470 :  -429802.43206
+The log-likelihood at iteration  480 :  -429669.000504
+The log-likelihood at iteration  490 :  -429509.369177
+The log-likelihood at iteration  500 :  -429555.979797
+The log-likelihood at iteration  510 :  -429493.790282
+The log-likelihood at iteration  520 :  -429561.442403
+The log-likelihood at iteration  530 :  -429305.363953
+The log-likelihood at iteration  540 :  -429562.588032
+The log-likelihood at iteration  550 :  -429625.778476
+The log-likelihood at iteration  560 :  -429646.863209
+The log-likelihood at iteration  570 :  -429621.382774
+The log-likelihood at iteration  580 :  -429781.826347
+The log-likelihood at iteration  590 :  -429810.984187
+The log-likelihood at iteration  600 :  -429825.081453
+The log-likelihood at iteration  610 :  -429887.195004
+The log-likelihood at iteration  620 :  -429734.099218
+The log-likelihood at iteration  630 :  -429586.701438
+The log-likelihood at iteration  640 :  -429590.253206
+The log-likelihood at iteration  650 :  -429461.781766
+The log-likelihood at iteration  660 :  -429464.994664
+The log-likelihood at iteration  670 :  -429574.10159
+The log-likelihood at iteration  680 :  -429388.389252
+The log-likelihood at iteration  690 :  -429490.156076
+The log-likelihood at iteration  700 :  -429260.767694
+The log-likelihood at iteration  710 :  -429323.851485
+The log-likelihood at iteration  720 :  -429521.516117
+The log-likelihood at iteration  730 :  -429550.093582
+The log-likelihood at iteration  740 :  -429635.753993
+The log-likelihood at iteration  750 :  -429566.371813
+The log-likelihood at iteration  760 :  -429200.133778
+The log-likelihood at iteration  770 :  -429359.514448
+The log-likelihood at iteration  780 :  -429614.213859
+The log-likelihood at iteration  790 :  -429408.732012
+The log-likelihood at iteration  800 :  -429510.792031
+The log-likelihood at iteration  810 :  -429352.435624
+The log-likelihood at iteration  820 :  -429383.528485
+The log-likelihood at iteration  830 :  -429512.900101
+The log-likelihood at iteration  840 :  -429415.435637
+The log-likelihood at iteration  850 :  -429359.124762
+The log-likelihood at iteration  860 :  -429326.800664
+The log-likelihood at iteration  870 :  -429149.687208
+The log-likelihood at iteration  880 :  -429136.437601
+The log-likelihood at iteration  890 :  -429111.657236
+The log-likelihood at iteration  900 :  -429087.723139
+The log-likelihood at iteration  910 :  -429227.908362
+The log-likelihood at iteration  920 :  -429337.302569
+The log-likelihood at iteration  930 :  -429241.847117
+The log-likelihood at iteration  940 :  -429491.592695
+The log-likelihood at iteration  950 :  -429269.123466
+The log-likelihood at iteration  960 :  -429283.948469
+The log-likelihood at iteration  970 :  -429156.089456
+The log-likelihood at iteration  980 :  -429092.280867
+The log-likelihood at iteration  990 :  -429038.416895
+The log-likelihood at iteration  1000 :  -429044.863063
+The log-likelihood at iteration  1010 :  -429015.545992
+The log-likelihood at iteration  1020 :  -428979.859035
+The log-likelihood at iteration  1030 :  -428936.37076
+The log-likelihood at iteration  1040 :  -428991.767879
+The log-likelihood at iteration  1050 :  -429145.342289
+The log-likelihood at iteration  1060 :  -429166.651195
+The log-likelihood at iteration  1070 :  -429040.974903
+The log-likelihood at iteration  1080 :  -428971.878513
+The log-likelihood at iteration  1090 :  -428983.805151
+The log-likelihood at iteration  1100 :  -429048.8924
+The log-likelihood at iteration  1110 :  -428929.798443
+The log-likelihood at iteration  1120 :  -429107.796853
+The log-likelihood at iteration  1130 :  -429025.060426
+The log-likelihood at iteration  1140 :  -428986.366849
+The log-likelihood at iteration  1150 :  -429092.157705
+The log-likelihood at iteration  1160 :  -428952.131104
+The log-likelihood at iteration  1170 :  -429041.696974
+The log-likelihood at iteration  1180 :  -428756.930617
+The log-likelihood at iteration  1190 :  -429100.361524
+The log-likelihood at iteration  1200 :  -428990.95616
+The log-likelihood at iteration  1210 :  -429139.47069
+The log-likelihood at iteration  1220 :  -429177.311395
+The log-likelihood at iteration  1230 :  -429154.562071
+The log-likelihood at iteration  1240 :  -429020.458209
+The log-likelihood at iteration  1250 :  -429133.114211
+The log-likelihood at iteration  1260 :  -429110.298976
+The log-likelihood at iteration  1270 :  -428952.641188
+The log-likelihood at iteration  1280 :  -429248.924972
+The log-likelihood at iteration  1290 :  -429230.085547
+The log-likelihood at iteration  1300 :  -429428.478807
+The log-likelihood at iteration  1310 :  -429070.257031
+The log-likelihood at iteration  1320 :  -429014.078198
+The log-likelihood at iteration  1330 :  -429180.80786
+The log-likelihood at iteration  1340 :  -429059.063223
+The log-likelihood at iteration  1350 :  -429208.734665
+The log-likelihood at iteration  1360 :  -429101.045416
+The log-likelihood at iteration  1370 :  -429343.520367
+The log-likelihood at iteration  1380 :  -429297.800738
+The log-likelihood at iteration  1390 :  -429224.025626
+The log-likelihood at iteration  1400 :  -429210.475718
+The log-likelihood at iteration  1410 :  -429189.193801
+The log-likelihood at iteration  1420 :  -429038.609126
+The log-likelihood at iteration  1430 :  -428928.016694
+The log-likelihood at iteration  1440 :  -428742.704453
+The log-likelihood at iteration  1450 :  -428966.006354
+The log-likelihood at iteration  1460 :  -429004.542083
+The log-likelihood at iteration  1470 :  -429058.396337
+The log-likelihood at iteration  1480 :  -429112.925257
+The log-likelihood at iteration  1490 :  -428994.721331
+The log-likelihood at iteration  1500 :  -429069.500748
+The log-likelihood at iteration  1510 :  -428899.712486
+The log-likelihood at iteration  1520 :  -428847.087668
+The log-likelihood at iteration  1530 :  -429019.657876
+The log-likelihood at iteration  1540 :  -428818.539886
+The log-likelihood at iteration  1550 :  -428928.275431
+The log-likelihood at iteration  1560 :  -428869.733368
+The log-likelihood at iteration  1570 :  -429056.975355
+The log-likelihood at iteration  1580 :  -428915.883302
+The log-likelihood at iteration  1590 :  -428900.485733
+The log-likelihood at iteration  1600 :  -428918.023438
+The log-likelihood at iteration  1610 :  -429010.097469
+The log-likelihood at iteration  1620 :  -428796.231497
+The log-likelihood at iteration  1630 :  -428702.445009
+The log-likelihood at iteration  1640 :  -428827.085261
+The log-likelihood at iteration  1650 :  -428785.552414
+The log-likelihood at iteration  1660 :  -428776.882571
+The log-likelihood at iteration  1670 :  -428632.718884
+The log-likelihood at iteration  1680 :  -428818.797433
+The log-likelihood at iteration  1690 :  -428842.826296
+The log-likelihood at iteration  1700 :  -428839.724047
+The log-likelihood at iteration  1710 :  -428928.509925
+The log-likelihood at iteration  1720 :  -428886.790445
+The log-likelihood at iteration  1730 :  -428817.883896
+The log-likelihood at iteration  1740 :  -428842.041021
+The log-likelihood at iteration  1750 :  -428724.175825
+The log-likelihood at iteration  1760 :  -428764.450347
+The log-likelihood at iteration  1770 :  -428758.154446
+The log-likelihood at iteration  1780 :  -428912.792079
+The log-likelihood at iteration  1790 :  -428902.656709
+The log-likelihood at iteration  1800 :  -428751.786484
+The log-likelihood at iteration  1810 :  -428622.895068
+The log-likelihood at iteration  1820 :  -428870.494683
+The log-likelihood at iteration  1830 :  -428906.630714
+The log-likelihood at iteration  1840 :  -428852.785287
+The log-likelihood at iteration  1850 :  -428871.806477
+The log-likelihood at iteration  1860 :  -428653.111425
+The log-likelihood at iteration  1870 :  -428648.208926
+The log-likelihood at iteration  1880 :  -428601.879427
+The log-likelihood at iteration  1890 :  -428593.649363
+The log-likelihood at iteration  1900 :  -428562.504259
+The log-likelihood at iteration  1910 :  -428657.067887
+The log-likelihood at iteration  1920 :  -428607.689209
+The log-likelihood at iteration  1930 :  -428730.166127
+The log-likelihood at iteration  1940 :  -428859.750436
+The log-likelihood at iteration  1950 :  -428806.833536
+The log-likelihood at iteration  1960 :  -428794.151986
+The log-likelihood at iteration  1970 :  -428875.622408
+The log-likelihood at iteration  1980 :  -428714.403449
+The log-likelihood at iteration  1990 :  -428830.839578
+The log-likelihood at iteration  2000 :  -428800.800601
+The log-likelihood at iteration  2010 :  -429160.447324
+The log-likelihood at iteration  2020 :  -428984.717426
+The log-likelihood at iteration  2030 :  -428847.13201
+The log-likelihood at iteration  2040 :  -428743.068662
+The log-likelihood at iteration  2050 :  -428465.887126
+The log-likelihood at iteration  2060 :  -428647.770931
+The log-likelihood at iteration  2070 :  -428644.289987
+The log-likelihood at iteration  2080 :  -428764.131996
+The log-likelihood at iteration  2090 :  -428890.318315
+The log-likelihood at iteration  2100 :  -428607.943463
+The log-likelihood at iteration  2110 :  -428709.028529
+The log-likelihood at iteration  2120 :  -428636.559006
+The log-likelihood at iteration  2130 :  -428765.01425
+The log-likelihood at iteration  2140 :  -428871.942384
+The log-likelihood at iteration  2150 :  -428899.266234
+The log-likelihood at iteration  2160 :  -428687.713489
+The log-likelihood at iteration  2170 :  -428860.072265
+The log-likelihood at iteration  2180 :  -428686.55015
+The log-likelihood at iteration  2190 :  -428634.811896
+The log-likelihood at iteration  2200 :  -428796.241389
+The log-likelihood at iteration  2210 :  -428739.017819
+The log-likelihood at iteration  2220 :  -428956.796008
+The log-likelihood at iteration  2230 :  -428828.546501
+The log-likelihood at iteration  2240 :  -428781.696225
+The log-likelihood at iteration  2250 :  -428776.371441
+The log-likelihood at iteration  2260 :  -428702.428874
+The log-likelihood at iteration  2270 :  -428805.820364
+The log-likelihood at iteration  2280 :  -428798.856166
+The log-likelihood at iteration  2290 :  -428726.523575
+The log-likelihood at iteration  2300 :  -428746.453288
+The log-likelihood at iteration  2310 :  -428694.859895
+The log-likelihood at iteration  2320 :  -428483.954064
+The log-likelihood at iteration  2330 :  -428517.677166
+The log-likelihood at iteration  2340 :  -428649.20101
+The log-likelihood at iteration  2350 :  -428455.417244
+The log-likelihood at iteration  2360 :  -428597.633275
+The log-likelihood at iteration  2370 :  -428665.83354
+The log-likelihood at iteration  2380 :  -428937.486167
+The log-likelihood at iteration  2390 :  -428911.731848
+The log-likelihood at iteration  2400 :  -428783.695787
+The log-likelihood at iteration  2410 :  -428642.703415
+The log-likelihood at iteration  2420 :  -428776.035061
+The log-likelihood at iteration  2430 :  -428706.799635
+The log-likelihood at iteration  2440 :  -428810.994179
+The log-likelihood at iteration  2450 :  -428795.468465
+The log-likelihood at iteration  2460 :  -428740.973266
+The log-likelihood at iteration  2470 :  -428902.832351
+The log-likelihood at iteration  2480 :  -428811.536258
+The log-likelihood at iteration  2490 :  -428962.307394
+The log-likelihood at iteration  2500 :  -428949.646105
+The log-likelihood at iteration  2510 :  -428721.273749
+The log-likelihood at iteration  2520 :  -428705.22334
+The log-likelihood at iteration  2530 :  -428634.326554
+The log-likelihood at iteration  2540 :  -428943.135464
+The log-likelihood at iteration  2550 :  -428735.778838
+The log-likelihood at iteration  2560 :  -428720.240748
+The log-likelihood at iteration  2570 :  -428829.80603
+The log-likelihood at iteration  2580 :  -428906.166296
+The log-likelihood at iteration  2590 :  -428763.359051
+The log-likelihood at iteration  2600 :  -428784.762431
+The log-likelihood at iteration  2610 :  -428709.692734
+The log-likelihood at iteration  2620 :  -428801.729897
+The log-likelihood at iteration  2630 :  -428900.369612
+The log-likelihood at iteration  2640 :  -428576.166226
+The log-likelihood at iteration  2650 :  -428513.797022
+The log-likelihood at iteration  2660 :  -428558.387725
+The log-likelihood at iteration  2670 :  -428660.03811
+The log-likelihood at iteration  2680 :  -428870.607056
+The log-likelihood at iteration  2690 :  -428688.807098
+The log-likelihood at iteration  2700 :  -428752.271299
+The log-likelihood at iteration  2710 :  -428748.980926
+The log-likelihood at iteration  2720 :  -428454.276989
+The log-likelihood at iteration  2730 :  -428581.658108
+The log-likelihood at iteration  2740 :  -428893.144664
+The log-likelihood at iteration  2750 :  -428684.798613
+The log-likelihood at iteration  2760 :  -428763.840995
+The log-likelihood at iteration  2770 :  -428739.52076
+The log-likelihood at iteration  2780 :  -428775.375057
+The log-likelihood at iteration  2790 :  -428650.696448
+The log-likelihood at iteration  2800 :  -428648.640854
+The log-likelihood at iteration  2810 :  -428719.435438
+The log-likelihood at iteration  2820 :  -428723.390218
+The log-likelihood at iteration  2830 :  -428748.806473
+The log-likelihood at iteration  2840 :  -428741.179292
+The log-likelihood at iteration  2850 :  -428761.957748
+The log-likelihood at iteration  2860 :  -428760.73784
+The log-likelihood at iteration  2870 :  -428691.536811
+The log-likelihood at iteration  2880 :  -428632.555942
+The log-likelihood at iteration  2890 :  -428613.618495
+The log-likelihood at iteration  2900 :  -428597.812186
+The log-likelihood at iteration  2910 :  -428423.117847
+The log-likelihood at iteration  2920 :  -428627.636227
+The log-likelihood at iteration  2930 :  -428739.5723
+The log-likelihood at iteration  2940 :  -428557.352035
+The log-likelihood at iteration  2950 :  -428612.225354
+The log-likelihood at iteration  2960 :  -428570.130694
+The log-likelihood at iteration  2970 :  -428496.305468
+The log-likelihood at iteration  2980 :  -428444.833282
+The log-likelihood at iteration  2990 :  -428403.727937
+The log-likelihood at iteration  3000 :  -428561.320814
+The log-likelihood at iteration  3010 :  -428551.963223
+The log-likelihood at iteration  3020 :  -428529.446804
+The log-likelihood at iteration  3030 :  -428761.659561
+The log-likelihood at iteration  3040 :  -428570.246044
+The log-likelihood at iteration  3050 :  -428670.872947
+The log-likelihood at iteration  3060 :  -428685.722502
+The log-likelihood at iteration  3070 :  -428907.913606
+The log-likelihood at iteration  3080 :  -428717.814088
+The log-likelihood at iteration  3090 :  -428774.370623
+The log-likelihood at iteration  3100 :  -428720.298134
+The log-likelihood at iteration  3110 :  -428808.328776
+The log-likelihood at iteration  3120 :  -428745.207611
+The log-likelihood at iteration  3130 :  -428790.019767
+The log-likelihood at iteration  3140 :  -428619.0725
+The log-likelihood at iteration  3150 :  -428773.830936
+The log-likelihood at iteration  3160 :  -428637.784049
+The log-likelihood at iteration  3170 :  -428696.427678
+The log-likelihood at iteration  3180 :  -428750.4621
+The log-likelihood at iteration  3190 :  -428489.914465
+The log-likelihood at iteration  3200 :  -428624.462917
+The log-likelihood at iteration  3210 :  -428606.89284
+The log-likelihood at iteration  3220 :  -428675.282951
+The log-likelihood at iteration  3230 :  -428722.392603
+The log-likelihood at iteration  3240 :  -428622.707322
+The log-likelihood at iteration  3250 :  -428598.818436
+The log-likelihood at iteration  3260 :  -428758.240261
+The log-likelihood at iteration  3270 :  -428672.543161
+The log-likelihood at iteration  3280 :  -428650.968159
+The log-likelihood at iteration  3290 :  -428775.764682
+The log-likelihood at iteration  3300 :  -428721.265096
+The log-likelihood at iteration  3310 :  -428710.615426
+The log-likelihood at iteration  3320 :  -428701.745773
+The log-likelihood at iteration  3330 :  -428686.157112
+The log-likelihood at iteration  3340 :  -428671.227322
+The log-likelihood at iteration  3350 :  -428823.718322
+The log-likelihood at iteration  3360 :  -428458.915543
+The log-likelihood at iteration  3370 :  -428702.052434
+The log-likelihood at iteration  3380 :  -428640.460249
+The log-likelihood at iteration  3390 :  -428669.391954
+The log-likelihood at iteration  3400 :  -428620.041576
+The log-likelihood at iteration  3410 :  -428637.804134
+The log-likelihood at iteration  3420 :  -428696.123031
+The log-likelihood at iteration  3430 :  -428730.124887
+The log-likelihood at iteration  3440 :  -428674.778843
+The log-likelihood at iteration  3450 :  -428617.132079
+The log-likelihood at iteration  3460 :  -428776.834124
+The log-likelihood at iteration  3470 :  -428634.028805
+The log-likelihood at iteration  3480 :  -428749.857417
+The log-likelihood at iteration  3490 :  -428671.471383
+The log-likelihood at iteration  3500 :  -428694.391041
+The log-likelihood at iteration  3510 :  -428838.597797
+The log-likelihood at iteration  3520 :  -428813.916674
+The log-likelihood at iteration  3530 :  -428849.864295
+The log-likelihood at iteration  3540 :  -428473.80896
+The log-likelihood at iteration  3550 :  -428727.431194
+The log-likelihood at iteration  3560 :  -428572.755866
+The log-likelihood at iteration  3570 :  -428649.859889
+The log-likelihood at iteration  3580 :  -428833.595885
+The log-likelihood at iteration  3590 :  -428650.483976
+The log-likelihood at iteration  3600 :  -428900.639973
+The log-likelihood at iteration  3610 :  -429011.754093
+The log-likelihood at iteration  3620 :  -428792.808658
+The log-likelihood at iteration  3630 :  -428773.086485
+The log-likelihood at iteration  3640 :  -428725.631186
+The log-likelihood at iteration  3650 :  -428734.328171
+The log-likelihood at iteration  3660 :  -428934.977588
+The log-likelihood at iteration  3670 :  -428901.264631
+The log-likelihood at iteration  3680 :  -428811.232153
+The log-likelihood at iteration  3690 :  -428847.600237
+The log-likelihood at iteration  3700 :  -428816.981376
+The log-likelihood at iteration  3710 :  -428823.894443
+The log-likelihood at iteration  3720 :  -428853.459923
+The log-likelihood at iteration  3730 :  -428532.507088
+The log-likelihood at iteration  3740 :  -428579.680346
+The log-likelihood at iteration  3750 :  -428649.392018
+The log-likelihood at iteration  3760 :  -428472.138131
+The log-likelihood at iteration  3770 :  -428474.108272
+The log-likelihood at iteration  3780 :  -428814.192599
+The log-likelihood at iteration  3790 :  -428695.798472
+The log-likelihood at iteration  3800 :  -428803.583096
+The log-likelihood at iteration  3810 :  -428605.374217
+The log-likelihood at iteration  3820 :  -428604.198654
+The log-likelihood at iteration  3830 :  -428644.145651
+The log-likelihood at iteration  3840 :  -428588.075014
+The log-likelihood at iteration  3850 :  -428628.582483
+The log-likelihood at iteration  3860 :  -428843.069436
+The log-likelihood at iteration  3870 :  -428863.432823
+The log-likelihood at iteration  3880 :  -428988.788068
+The log-likelihood at iteration  3890 :  -428803.675284
+The log-likelihood at iteration  3900 :  -428903.997132
+The log-likelihood at iteration  3910 :  -428652.64409
+The log-likelihood at iteration  3920 :  -428674.919482
+The log-likelihood at iteration  3930 :  -428807.788179
+The log-likelihood at iteration  3940 :  -428761.018519
+The log-likelihood at iteration  3950 :  -428903.222622
+The log-likelihood at iteration  3960 :  -428802.147329
+The log-likelihood at iteration  3970 :  -428690.744299
+The log-likelihood at iteration  3980 :  -428722.138909
+The log-likelihood at iteration  3990 :  -428704.295116
+The log-likelihood at iteration  4000 :  -428661.0538
+The final log-likelihood:  -428504.756944
+Run-time of Fitting:  92359.753932717
+Topic Explanation
+********Topic  0 ********
+support :  0.145996404896
+vector :  0.101295378675
+machines :  0.0661052090962
+method :  0.0494612099712
+kernel :  0.0347193821748
+regression :  0.0318661251819
+kernels :  0.029012868189
+class :  0.0261596111962
+svm :  0.0237818970355
+fast :  0.0228308113712
+********Topic  1 ********
+logic :  0.122818654091
+reasoning :  0.111692613165
+programming :  0.0783144903845
+description :  0.0445084429534
+order :  0.0398012717921
+temporal :  0.038089573188
+inductive :  0.0342382513287
+logics :  0.0333824020267
+programs :  0.0316707034225
+semantics :  0.0295310801674
+********Topic  2 ********
+agents :  0.191407017774
+intelligent :  0.0664573252342
+negotiation :  0.0519500575611
+automated :  0.0496101756783
+autonomous :  0.0369748135114
+commerce :  0.0285512387335
+internet :  0.0252754040976
+electronic :  0.0229355222148
+heterogeneous :  0.0187237348259
+strategy :  0.0173198056962
+********Topic  3 ********
+clustering :  0.0912655785081
+semi :  0.0499130170258
+supervised :  0.047061116234
+performance :  0.0408819978516
+survey :  0.0342275626705
+boosting :  0.0323262954759
+level :  0.0318509786773
+training :  0.0270978106908
+plans :  0.0261471770935
+constraints :  0.0256718602949
+********Topic  4 ********
+systems :  0.113525177263
+design :  0.0783878262593
+oriented :  0.0594677141802
+software :  0.0590172353211
+agent :  0.056314362167
+multiagent :  0.0468543061274
+development :  0.0441514329733
+engineering :  0.0423495175371
+role :  0.0292856306254
+modelling :  0.0274837151892
+********Topic  5 ********
+classification :  0.155609355912
+text :  0.108794128925
+automatic :  0.0717878066397
+structured :  0.0432528111429
+generation :  0.0428069518383
+categorization :  0.032106328527
+documents :  0.025864298262
+exploiting :  0.0231891424342
+construction :  0.0187305493878
+examples :  0.0169471121693
+********Topic  6 ********
+analysis :  0.135327178597
+time :  0.063186631838
+techniques :  0.0471553992248
+linear :  0.0443263581755
+graph :  0.0381967692351
+real :  0.0353677281857
+world :  0.0320671802948
+function :  0.0226370434635
+approximation :  0.0212225229388
+applying :  0.0169789613647
+********Topic  7 ********
+web :  0.367751335199
+semantic :  0.199355307364
+services :  0.06108896098
+service :  0.0515960476462
+annotation :  0.0321974856162
+composition :  0.0189899540213
+infrastructure :  0.0144498650355
+pages :  0.0136243943109
+sites :  0.0119734528615
+platform :  0.0111479821368
+********Topic  8 ********
+data :  0.273631204046
+mining :  0.103717793685
+integration :  0.0670871104128
+relational :  0.0467857678762
+patterns :  0.0322217612739
+gene :  0.0278084259398
+expression :  0.0211884229388
+discovering :  0.0176577546715
+tools :  0.0176577546715
+approaches :  0.0172164211381
+********Topic  9 ********
+dynamic :  0.0811170593456
+environments :  0.0534434551926
+environment :  0.0439008330709
+interactive :  0.0405609153283
+collaborative :  0.0396066531161
+virtual :  0.0376981286918
+computing :  0.0367438664796
+filtering :  0.0300640309944
+complex :  0.0257698510397
+building :  0.0224299332971
+********Topic  10 ********
+selection :  0.106794203111
+feature :  0.0880028966111
+algorithm :  0.0829613265746
+algorithms :  0.0476703363186
+optimal :  0.0270457316235
+genetic :  0.0229208106845
+sampling :  0.0220041615869
+features :  0.0210875124893
+general :  0.0210875124893
+simple :  0.0183375651967
+********Topic  11 ********
+based :  0.142544520892
+ontology :  0.127468179783
+management :  0.0721882623832
+driven :  0.0365532743072
+process :  0.0233043684841
+evaluating :  0.0182789214477
+metadata :  0.0178220626262
+topic :  0.0173652038047
+evolution :  0.0173652038047
+business :  0.0146240508758
+********Topic  12 ********
+learning :  0.431507697205
+machine :  0.0835639694764
+reinforcement :  0.0557107866977
+active :  0.0371419981785
+hierarchical :  0.0349314281167
+unsupervised :  0.0252049198447
+translation :  0.019457437684
+versus :  0.00752035935027
+kernel :  0.00663613132555
+transfer :  0.00663613132555
+********Topic  13 ********
+approach :  0.118815076759
+context :  0.0692327841861
+parsing :  0.0500547276248
+non :  0.0318121860178
+statistical :  0.0276023687239
+discriminative :  0.0215215215215
+automatically :  0.0210537640444
+dependency :  0.0196504916131
+generating :  0.019182734136
+sensitive :  0.0187149766589
+********Topic  14 ********
+knowledge :  0.22565681765
+discovery :  0.0727675129718
+ontologies :  0.0684363711962
+domain :  0.0476468906733
+databases :  0.0467806623182
+representation :  0.034220351169
+acquisition :  0.0307554377485
+specific :  0.0186282407768
+owl :  0.0181951265993
+refinement :  0.0177620124217
+********Topic  15 ********
+distributed :  0.0659380323987
+large :  0.0640129748876
+efficient :  0.0587190667321
+evaluation :  0.0471687216656
+methods :  0.0452436641545
+problems :  0.0365809053545
+optimization :  0.0322495259546
+scale :  0.025030560288
+constraint :  0.0245492959102
+sets :  0.0245492959102
+********Topic  16 ********
+language :  0.10725252766
+query :  0.065544993721
+functions :  0.0453787135747
+processing :  0.0435454153795
+natural :  0.0394204944405
+database :  0.0375871962454
+visual :  0.0270457316235
+parallel :  0.0242957843308
+finding :  0.0220041615869
+querying :  0.0215458370381
+********Topic  17 ********
+architecture :  0.0666756178641
+control :  0.0518598427676
+mobile :  0.0495448779088
+strategies :  0.0379700536146
+robot :  0.0375070606428
+plan :  0.0370440676711
+games :  0.0333401238969
+action :  0.0240802644616
+self :  0.0226912855463
+robust :  0.0226912855463
+********Topic  18 ********
+networks :  0.109343690813
+bayesian :  0.0777771677967
+classifiers :  0.0489555598254
+inference :  0.0457531589397
+network :  0.0439232155765
+social :  0.0324860695561
+neural :  0.0324860695561
+comparison :  0.0301986403521
+word :  0.027911211148
+approximate :  0.0269962394664
+********Topic  19 ********
+learning :  0.136247167592
+approach :  0.0803160823382
+rules :  0.0511554310518
+induction :  0.0435067356324
+incremental :  0.0401604313864
+improving :  0.0372921706042
+combining :  0.0349019532856
+rule :  0.0305995621122
+error :  0.021038692838
+wrapper :  0.0157802147371
+********Topic  20 ********
+based :  0.156707144358
+retrieval :  0.0868077446707
+document :  0.0466041683799
+queries :  0.0333552625568
+image :  0.0328984037353
+answering :  0.0319846860923
+content :  0.0319846860923
+similarity :  0.0287866743419
+memory :  0.0265023802345
+question :  0.0255886625915
+********Topic  21 ********
+information :  0.277853900831
+extraction :  0.117995489709
+xml :  0.0585243546192
+matching :  0.0328328242604
+sources :  0.0271235952918
+pattern :  0.0261720571304
+documents :  0.0256962880496
+extracting :  0.0256962880496
+access :  0.0223659044846
+texts :  0.0147535991931
+********Topic  22 ********
+based :  0.232391166476
+system :  0.161870639796
+framework :  0.0577463722159
+to :  0.0269823840671
+integrated :  0.0189364179359
+medical :  0.0189364179359
+peer :  0.0179898336851
+collection :  0.0165699573091
+scalable :  0.0165699573091
+unified :  0.0142034966822
+********Topic  23 ********
+planning :  0.217228098574
+search :  0.114895853683
+domains :  0.0339603509066
+space :  0.0339603509066
+results :  0.0279134455267
+complexity :  0.0269831523913
+resource :  0.0223316867145
+motion :  0.0223316867145
+continuous :  0.0214013935791
+ai :  0.018610514173
+********Topic  24 ********
+agent :  0.26530014517
+multi :  0.184225717997
+systems :  0.103151290824
+interaction :  0.0318397527867
+communication :  0.0292929121425
+formal :  0.0292929121425
+specification :  0.0186810761251
+protocols :  0.0186810761251
+verification :  0.0148608151588
+argumentation :  0.0114650276332
+********Topic  25 ********
+application :  0.0485928316021
+structure :  0.0481211023369
+theory :  0.0452907267461
+prediction :  0.0301953902616
+mapping :  0.0292519317313
+online :  0.0268932854056
+human :  0.0221759927542
+protein :  0.0217042634891
+ranking :  0.021232534224
+set :  0.0207608049588
+********Topic  26 ********
+model :  0.183860603753
+decision :  0.0821826859684
+state :  0.0403972403035
+tree :  0.0390043921146
+hybrid :  0.0371472611962
+processes :  0.0287901720632
+trees :  0.0236830620375
+game :  0.0232187793078
+making :  0.0232187793078
+markov :  0.0208973656598
+********Topic  27 ********
+models :  0.133925388279
+probabilistic :  0.0891327598658
+recognition :  0.0507390783688
+detection :  0.0498249430951
+object :  0.0447971990895
+local :  0.025600358341
+resolution :  0.025600358341
+task :  0.0246862230673
+hidden :  0.0233150201567
+markov :  0.0228579525198
+********Topic  28 ********
+user :  0.0856454835947
+adaptive :  0.0810411352481
+applications :  0.070451134051
+modeling :  0.0699906992163
+conditional :  0.0363789562863
+interface :  0.0331559124437
+conceptual :  0.0317746079397
+random :  0.0313141731051
+fields :  0.0244076505852
+research :  0.0244076505852
+********Topic  29 ********
+case :  0.0849070764497
+based :  0.0774018931825
+multiple :  0.0661441182817
+study :  0.0525409736099
+framework :  0.0497265298847
+problem :  0.0445667163885
+solving :  0.0351852373045
+instance :  0.0314326456709
+cooperative :  0.0272109800831
+empirical :  0.0201748707701
