@@ -15,6 +15,15 @@ class Evaluator(object):
         self.num_class = num_class
         self.confusion_matrix = np.zeros((self.num_class, self.num_class))
 
+    def kappa(self):
+        po = np.diag(self.confusion_matrix).sum() / self.confusion_matrix.sum()
+        pc = 0.0
+        for i in range(0, self.num_class):
+            pc += np.sum(self.confusion_matrix[:, i]) * np.sum(self.confusion_matrix[i, :])
+        pc = pc / np.sum(self.confusion_matrix)**2
+        kappa = (po - pc) / (1.0 - pc)
+        return kappa
+
     def overall_acc(self):
         oa = np.diag(self.confusion_matrix).sum() / self.confusion_matrix.sum()
         return oa
@@ -63,7 +72,7 @@ class Trainer(object):
                                       pretrained_backbone="pretrained_SEResAttentionNet.pt")
         elif args.model == "DeepLab-AttResNet":
             self.model = LUSegDeepLab("AttResNet", num_plane=2048, output_stride=16, num_classes=5,
-                                      pretrained_backbone=None)
+                                      pretrained_backbone="pretrained_ResNet50.pt")
         else:
             raise NotImplementedError
 
@@ -94,6 +103,7 @@ class Trainer(object):
 
     def train(self, epoch):
         self.model.train()
+        self.evaluator.reset()
         train_loss = 0.0
         for i, sample in enumerate(self.train_loader):
             image, target = sample['image'], sample['label']
@@ -106,8 +116,21 @@ class Trainer(object):
             self.optimizer.step()
 
             train_loss += loss.item()*image.size(0)
+            pred = output.data.cpu().numpy()
+            pred = np.argmax(pred, axis=1)
+            target = target.cpu().numpy()
+            self.evaluator.add_batch(target, pred)
+
+        kappa = self.evaluator.kappa()
+        over_acc = self.evaluator.overall_acc()
+        user_acc = self.evaluator.user_acc()
+        mIoU = self.evaluator.mIOU()
         print('-----Training-----')
         print('Training Loss at Epoch ', epoch, ': %.4f' % train_loss)
+        print('Training Overall Accuracy at Epoch ', epoch, ': %.4f' % over_acc)
+        print('Training Kappa at Epoch ', epoch, ': %.4f' % kappa)
+        print('Training mIoU at Epoch ', epoch, ': %.4f' % mIoU)
+        print('Training User Accuracy at Epoch ', epoch, ': ', " ".join(map(lambda x: "{:.4f}".format(x), user_acc)))
 
     def valid(self, epoch):
         self.model.eval()
@@ -120,20 +143,23 @@ class Trainer(object):
             with torch.no_grad():
                 output = self.model(image)
             loss = self.criterion(output, target)
-            valid_loss += loss.item()
+
+            valid_loss += loss.item()*image.size(0)
             pred = output.data.cpu().numpy()
-            target = target.cpu().numpy()
             pred = np.argmax(pred, axis=1)
+            target = target.cpu().numpy()
             # Add batch sample into evaluator
             self.evaluator.add_batch(target, pred)
 
-        # Fast test during the training
+        kappa = self.evaluator.kappa()
         over_acc = self.evaluator.overall_acc()
         user_acc = self.evaluator.user_acc()
         mIoU = self.evaluator.mIOU()
         print('-----Validation-----')
         print('Validation Loss at Epoch ', epoch, ': %.4f' % valid_loss)
         print('Validation Overall Accuracy at Epoch ', epoch, ': %.4f' % over_acc)
+        print('Validation Kappa at Epoch ', epoch, ': %.4f' % kappa)
+        print('Validation mIoU at Epoch ', epoch, ': %.4f' % mIoU)
         print('Validation User Accuracy at Epoch ', epoch, ': ', " ".join(map(lambda x: "{:.4f}".format(x), user_acc)))
 
         new_pred = mIoU
@@ -142,7 +168,7 @@ class Trainer(object):
             self.best_pred = new_pred
             self.saver.save_checkpoint({
                 'epoch': epoch + 1,
-                'state_dict': self.model.module.state_dict(),
+                'state_dict': self.model.state_dict(),
                 'best_pred': self.best_pred,
             }, is_best)
 
