@@ -71,13 +71,13 @@ class LUSegUNet(nn.Module):
         self.down_conv2 = DownConv(int(num_channel/8), int(num_channel/4))
         self.mpool3 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
         self.down_conv3 = DownConv(int(num_channel/4), int(num_channel/2))
-        self.down_mpool4 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+        self.mpool4 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
         self.down_conv4 = DownConv(int(num_channel/2), num_channel)
 
         self.up_conv4 = UpConv(in_plane=num_channel, skip_plane=int(num_channel/2), num_plane=int(num_channel/2))
         self.up_conv3 = UpConv(in_plane=int(num_channel/2), skip_plane=int(num_channel/4), num_plane=int(num_channel/4))
         self.up_conv2 = UpConv(in_plane=int(num_channel/4), skip_plane=int(num_channel/8), num_plane=int(num_channel/8))
-        self.up_conv1 = UpConv(in_plane=int(num_channel/8), skip_plane=int(num_channel/8), num_plane=int(num_channel/16))
+        self.up_conv1 = UpConv(in_plane=int(num_channel/8), skip_plane=int(num_channel/16), num_plane=int(num_channel/16))
 
         self.out_conv = nn.Conv2d(int(num_channel/16), num_classes, kernel_size=1)
 
@@ -99,7 +99,7 @@ class LUSegUNet(nn.Module):
         out = self.up_conv4(x4, x3)
         out = self.up_conv3(out, x2)
         out = self.up_conv2(out, x1)
-        out = self.up_conv2(out, x0)
+        out = self.up_conv1(out, x0)
 
         out = self.out_conv(out)
         
