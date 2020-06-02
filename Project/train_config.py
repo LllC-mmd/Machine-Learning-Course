@@ -67,12 +67,14 @@ class Trainer(object):
         # model', type=str, default='U-net', choices=['U-net', 'DeepLab-ResNet50', 'DeepLab-AttResNet']
         if args.model == "U-net":
             self.model = LUSegUNet(num_channel=512, num_classes=5)
+        elif args.model == "U-net-IN":
+            self.model = LUSegUNet_IN(num_channel=512, num_classes=5)
         elif args.model == "DeepLab-ResNet50":
-            self.model = LUSegDeepLab("ResNet50", num_plane=2048, output_stride=16, num_classes=5,
-                                      pretrained_backbone="pretrained_SEResAttentionNet.pt")
-        elif args.model == "DeepLab-AttResNet":
-            self.model = LUSegDeepLab("AttResNet", num_plane=2048, output_stride=16, num_classes=5,
+            self.model = LUSegDeepLab("ResNet50", num_plane=2048, output_stride=args.out_stride, num_classes=5,
                                       pretrained_backbone="pretrained_ResNet50.pt")
+        elif args.model == "DeepLab-AttResNet":
+            self.model = LUSegDeepLab("AttResNet", num_plane=2048, output_stride=args.out_stride, num_classes=5,
+                                      pretrained_backbone="pretrained_SEResAttentionNet.pt")
         else:
             raise NotImplementedError
 
@@ -219,7 +221,6 @@ class Saver(object):
         p['lr_scheduler'] = self.args.lr_scheduler
         p['loss_type'] = self.args.loss_type
         p['epoch'] = self.args.epochs
-        p['base_size'] = self.args.base_size
 
         for key, val in p.items():
             log_file.write(key + ':' + str(val) + '\n')
