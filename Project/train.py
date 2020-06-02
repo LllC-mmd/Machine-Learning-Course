@@ -6,7 +6,7 @@ from train_config import Trainer
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PyTorch DeeplabV3Plus Training")
-    parser.add_argument('--model', type=str, default='U-net', choices=['U-net', 'DeepLab-ResNet50', 'DeepLab-AttResNet'],
+    parser.add_argument('--model', type=str, default='U-net', choices=['U-net', 'U-net-IN', 'DeepLab-ResNet50', 'DeepLab-AttResNet'],
                         help='segmentation model (default: U-net)')
     parser.add_argument('--out-stride', type=int, default=8, help='network output stride (default: 8)')
     parser.add_argument('--num_classes', type=int, default=5, help='the number of classes (default: 5)')
