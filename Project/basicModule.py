@@ -440,6 +440,7 @@ class posAtt(nn.Module):
 class DownConv(nn.Module):
     def __init__(self, in_plane, num_plane):
         super(DownConv, self).__init__()
+        # use Instance Normalization for shallow layers
         self.dconv = nn.Sequential(
             nn.Conv2d(in_plane, num_plane, kernel_size=3, padding=1),
             nn.BatchNorm2d(num_plane),
@@ -448,6 +449,34 @@ class DownConv(nn.Module):
             nn.BatchNorm2d(num_plane),
             nn.ReLU(inplace=True)
         )
+
+    def forward(self, x):
+        return self.dconv(x)
+
+
+class DownConvIN(nn.Module):
+    def __init__(self, in_plane, num_plane, IN=False):
+        super(DownConvIN, self).__init__()
+        # use Instance Normalization for shallow layers
+        if IN:
+            self.dconv = nn.Sequential(
+                nn.Conv2d(in_plane, num_plane, kernel_size=3, padding=1),
+                nn.InstanceNorm2d(num_plane),
+                nn.ReLU(inplace=True),
+                nn.Conv2d(num_plane, num_plane, kernel_size=3, padding=1),
+                nn.InstanceNorm2d(num_plane),
+                nn.ReLU(inplace=True)
+            )
+        # use Batch Normalization for deep layers
+        else:
+            self.dconv = nn.Sequential(
+                nn.Conv2d(in_plane, num_plane, kernel_size=3, padding=1),
+                nn.BatchNorm2d(num_plane),
+                nn.ReLU(inplace=True),
+                nn.Conv2d(num_plane, num_plane, kernel_size=3, padding=1),
+                nn.BatchNorm2d(num_plane),
+                nn.ReLU(inplace=True)
+            )
 
     def forward(self, x):
         return self.dconv(x)
