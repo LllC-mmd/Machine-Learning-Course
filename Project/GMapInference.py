@@ -71,14 +71,9 @@ trainable_num = sum(p.numel() for p in model.parameters() if p.requires_grad)
 print("Total parameter of mode: ", total_num, " Trainable parameter of model: ", trainable_num)
 '''
 
-
 checkpoint = torch.load(trained_record, map_location=torch.device('cpu'))
 model.load_state_dict(checkpoint["state_dict"])
-
-
-
 model.eval()
-
 
 in_trans = transforms.Compose([transforms.ToTensor(),
                                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
@@ -115,4 +110,3 @@ LU_ds.SetGeoTransform(geo_trans)
 LU_ds.SetProjection(proj)
 LU_ds.FlushCache()
 LU_ds = None
-
